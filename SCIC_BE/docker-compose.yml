@@ -1,0 +1,19 @@
+
+services:
+    scic_web_server:
+        container_name: scic_web_server
+        build:
+            context: ./SCIC_BE
+            dockerfile: Dockerfile
+        ports:
+            - "8090:8080"
+        environment:
+        - ASPNETCORE_ENVIRONMENT=Development
+        networks:
+        - productnetwork
+
+    
+
+networks:
+  productnetwork:
+    driver: bridge
