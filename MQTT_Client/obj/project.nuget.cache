@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mbEv0u2mKBA=",
+  "success": true,
+  "projectFilePath": "D:\\HUST_Study\\SOICT\\MQTT_Client\\MQTT_Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\mqttnet\\5.0.1.1416\\mqttnet.5.0.1.1416.nupkg.sha512"
+  ],
+  "logs": []
+}
